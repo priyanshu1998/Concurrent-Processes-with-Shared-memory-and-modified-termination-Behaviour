@@ -45,11 +45,14 @@ One needs to code a consumer process but its termination depends on a set of oth
 
 #### Compile:
 
-    g++ main.c -lpthread -lrt -o main.out
-    g++ consumers.c -lpthread -lrt -o consumers.out
-    g++ producers.c -lpthread -lrt -o producers.out 
+    g++ ./src/main.c -lpthread -lrt -o ./bin/main.out
+    g++ ./src/consumers.c -lpthread -lrt -o ./bin/consumers.out
+    g++ ./src/producers.c -lpthread -lrt -o ./bin/producers.out 
 
 ### Execute:
+    # It is important to cd into bin as exec assumes "consumers.out" and "producers.out" are in same in "main.out"
+    # Not changing directory can result in undefined behaviour. 
+    cd ./bin
     ./main.out
 
 

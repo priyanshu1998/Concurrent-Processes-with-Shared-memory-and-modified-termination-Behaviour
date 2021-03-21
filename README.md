@@ -43,6 +43,15 @@ One needs to code a consumer process but its termination depends on a set of oth
  Solving this challenge makes one of the best assignment I have ever coded.
 
 
+#### Compile:
+
+    g++ main.c -lpthread -lrt -o main.out
+    g++ consumers.c -lpthread -lrt -o consumers.out
+    g++ producers.c -lpthread -lrt -o producers.out 
+
+### Execute:
+    ./main.out
+
 
 ## References:
 UNIX System Programming Using C++ 

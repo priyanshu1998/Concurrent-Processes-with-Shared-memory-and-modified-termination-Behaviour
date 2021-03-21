@@ -3,21 +3,21 @@
 
 Language: C 
 
-=====================================================================================================
 
-Motivation:
+
+## Motivation:
 
 The architecture was created to solve a concurrency, termination behavior problem of a 3rd Year Assignment in OS.
 The problem is a modification of the producer-consumer problem.
 
-Objectives were:
+    Objectives:
     - Create a shared space for the processes.
     - Synchronize producer and consumer processes.
     - consumer processes don't terminate unless all producer processes have terminated.
         (each producer process creates a value and terminates.)
 
 =====================================================================================================
-Problem Statement:
+## Problem Statement:
 
     Write a program for p-producer c-consumer problem, p, c >= 1.
     A shared circular buffer that can hold 25 items is to be used. 
@@ -37,18 +37,17 @@ Problem Statement:
 
 
 =====================================================================================================
-Challenge:
+## Challenge:
 
-    Note the termination behavior is not a standard.
-    One needs to code a consumer process but its termination depends on a set of other processes.
+Note the termination behavior is not a standard.
+One needs to code a consumer process but its termination depends on a set of other processes.
 
-    Solving this challenge makes one of the best assignment I have ever coded.
+ Solving this challenge makes one of the best assignment I have ever coded.
 
 
 =====================================================================================================
-References:
-
-    UNIX System Programming Using C++ 
-    https://www.amazon.in/UNIX-System-Programming-Using-C/dp/9332549974
+## References:
+UNIX System Programming Using C++ 
+https://www.amazon.in/UNIX-System-Programming-Using-C/dp/9332549974
 
 =====================================================================================================

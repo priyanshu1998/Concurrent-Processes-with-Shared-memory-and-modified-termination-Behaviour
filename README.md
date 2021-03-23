@@ -57,6 +57,6 @@ One needs to code a consumer process but its termination depends on a set of oth
 
 
 ## References:
-UNIX System Programming Using C++ 
+UNIX System Programming Using C++ - Terrence Chan
 https://www.amazon.in/UNIX-System-Programming-Using-C/dp/9332549974
 

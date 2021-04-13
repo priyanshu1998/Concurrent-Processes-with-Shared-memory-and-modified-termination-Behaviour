@@ -39,9 +39,7 @@ The problem is a modification of the producer-consumer problem.
 
 Note the termination behavior is not a standard.
 One needs to code a consumer process but its termination depends on a set of other processes.
-
- Solving this challenge makes one of the best assignment I have ever coded.
-
+(also the "set of processes" are not child processes of consumers and hence api such as wait(...) wont work and also for different values of p and c one needs to ensure there is no deadlock)
 
 #### Compile:
 
@@ -50,7 +48,7 @@ One needs to code a consumer process but its termination depends on a set of oth
     g++ ./src/producers.c -lpthread -lrt -o ./bin/producers.out 
 
 ### Execute:
-    # It is important to cd into bin as exec assumes "consumers.out" and "producers.out" are in same in "main.out"
+    # It is important to cd into bin as exec assumes "consumers.out" and "producers.out" are in same folder as "main.out"
     # Not changing directory can result in undefined behaviour. 
     cd ./bin
     ./main.out
@@ -59,4 +57,9 @@ One needs to code a consumer process but its termination depends on a set of oth
 ## References:
 UNIX System Programming Using C++ - Terrence Chan
 https://www.amazon.in/UNIX-System-Programming-Using-C/dp/9332549974
+
+
+## Test Run:
+![image](https://user-images.githubusercontent.com/36814207/114513356-ba807280-9c57-11eb-96d3-fa7f3558e486.png)
+
 

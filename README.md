@@ -60,6 +60,6 @@ https://www.amazon.in/UNIX-System-Programming-Using-C/dp/9332549974
 
 
 ## Test Run:
-![image](https://user-images.githubusercontent.com/36814207/114513356-ba807280-9c57-11eb-96d3-fa7f3558e486.png)
+![image](https://raw.githubusercontent.com/priyanshu1998/Concurrent-Processes-with-Shared-memory-and-modified-termination-Behaviour/main/demo.gif)
 
 
